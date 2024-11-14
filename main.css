@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Inter", serif;
+}
+
+.wrapper {
+  position: relative;
+  width: 1510px;
+  height: 679px;
+  background-image: url(./images/image\ 1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  text-decoration-line: none;
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+  margin-left: 120px;
+}
+
+.link {
+  color: white;
+  text-decoration-line: none;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 950px;
+}
+
+.link-on {
+  color: #D5654D;
+  text-decoration-line: none;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: white;
+  width: 103px;
+  height: 45px;
+  border-radius: 4px;
+  padding: 7px 8px;
+  gap: 10px;
+  margin-left: 25px;
+}
+
+.frontend {
+  margin-top: 190px;
+  color: white;
+  font-size: 114px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.images {
+  margin-top: 120px;
+  position: absolute;
+}
+
+.index-img {
+  animation-name: index;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  width: 156px;
+  height: 156px;
+  margin-left: 142px;
+}
+
+.nmadr {
+  animation-name: jjjj;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  margin-top: 23px;
+  margin-left: 142px;
+}
+
+.css-img {
+  animation-name: scc;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.images-tu {
+ position: absolute;
+ margin-left: 1200px;
+ margin-top: 132px;
+}
+
+.js {
+  animation-name: js;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  margin-top: 83px;
+}
+
+
+@keyframes js {
+  50% {
+    transform: rotate(85deg);
+  }
+}
+
+@keyframes jjjj {
+
+  0% {
+    width: 160px;
+  }
+
+  25% {
+    width: 180;
+  }
+
+ 50% {
+  width: 190px;
+  transform: rotate(45deg);
+ }
+
+ 75% {
+  width: 200;
+ }
+
+ 100% {
+  width: 160px;
+ }
+}
+
+@keyframes scc {
+  50% {
+    transform: rotate(85deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+@keyframes index {
+  50% {
+    transform: rotate(25deg);
+  }
+
+  100% {
+    transform: rotate(-55deg);
+  }
+}
+
+
+input {
+  margin-top: 40px;
+  border: none;
+  margin-left: 500px;
+  width: 390px;
+  height: 45px;
+  border-radius: 4px;
+  padding: 8px 14px;
+  gap: 10px;
+}
+
+.send {
+  width: 95px;
+height: 45px;
+border-radius: 4px;
+gap: 10px;
+padding: 8px 10px;
+background-color: #FF3333;
+color: white;
+font-size: 24px;
+text-decoration-line: none;
+margin-left: 12px;
+}
